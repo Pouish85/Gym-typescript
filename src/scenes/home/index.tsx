@@ -9,15 +9,11 @@ import SponsorFortune from "@/assets/SponsorFortune.png";
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import { motion } from 'framer-motion';
 
-
 type Props = {
     setSelectedPage: (value: SelectedPage) => void;
 }
-
 const Home = ({ setSelectedPage }: Props) => {
     const isAboveMediumScreens = useMediaQuery("(min-width:1060px");
-
-
     return <section
     id='home'
     className='gap-16 bg-gray-20 py-10 md:h-full mdbpb-0'
@@ -46,12 +42,10 @@ const Home = ({ setSelectedPage }: Props) => {
                             <img src={HomePageText} alt="home-page-text" />
                         </div>
                     </div>
-
                     <p className='mt-8 text-sm'>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita ipsa, quibusdam distinctio perspiciatis reprehenderit, reiciendis vel dolor, quod ducimus iusto earum? Eius temporibus consequuntur possimus consectetur nemo rerum officia sunt.
                     </p>
                 </motion.div>
-
                 {/* ACTIONS */}
                 <motion.div 
                     className='mt-8 flex items-center gap-8 md:justify-start'
@@ -76,13 +70,11 @@ const Home = ({ setSelectedPage }: Props) => {
                     </AnchorLink>
                 </motion.div>
             </div>
-
             {/* IMAGE */}
             <div className='flex basis-3/5 justify-center md:z-10 md:ml-40 md:mt-16 md:justify-end'>
                 <img src={HomePageGraphic} alt="home-pageGraphic" />
             </div>
         </motion.div>
-
         {/* SPONSORS */}
         {isAboveMediumScreens && (
             <div className='h-[150px] w-full bg-primary-100 py-10'>

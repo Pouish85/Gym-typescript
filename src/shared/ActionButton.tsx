@@ -6,7 +6,6 @@ type Props = {
     children: React.ReactNode;
     setSelectedPage: (value: SelectedPage) => void;
 }
-
 const ActionButton = ({ children, setSelectedPage }: Props) => {
   return (
     <AnchorLink

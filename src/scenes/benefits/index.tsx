@@ -88,7 +88,6 @@ const Benefits = ({setSelectedPage}: Props) => {
                     src={BenefitsPageGraphic} 
                     alt="benefits-page-graphic" 
                     />
-
                 {/* DESCRIPTION */}
                 <div>
                     {/* TITLE */}
@@ -110,7 +109,6 @@ const Benefits = ({setSelectedPage}: Props) => {
                                 </HText>
                             </motion.div>
                         </div>
-
                     </div>
                     {/* DESCRIPTION */}
                     <motion.div

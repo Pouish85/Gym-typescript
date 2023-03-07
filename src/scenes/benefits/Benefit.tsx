@@ -38,4 +38,3 @@ const Benefit = ({ icon, title, description, setSelectedPage}: Props) => {
 }
 
 export default Benefit
-
